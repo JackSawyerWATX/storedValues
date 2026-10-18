@@ -14,4 +14,6 @@ const calculatedArea = area(10, 12);
 const calculatedCost = cost(45, 0.08);
 const calculatedTotal = total(calculatedArea, calculatedCost);
 
+console.log(`${calculatedArea} sqm`)
+console.log(`$${calculatedCost.toFixed(2)}`)
 console.log(`$${calculatedTotal.toFixed(2)}`);
